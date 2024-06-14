@@ -8,6 +8,7 @@ function newItem() {
     alert('You must write something!');
   } else {
     $('#list').append(li);
+    $('#input').val('');
 
     function crossOut() {
       li.toggleClass('strike');
