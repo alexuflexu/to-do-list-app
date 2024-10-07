@@ -1,32 +1,34 @@
-function newItem() {
+function newItem(){
+    
+  //Adding a new item to the list of items: 
   let li = $('<li></li>');
-  let inputValue = $('#input').val();
-  let text = document.createTextNode(inputValue);
-  li.append(text);
-
-  if (inputValue === '') {
-    alert('You must write something!');
+  let inputValue = $('#input').val(); 
+  li.append(inputValue); 
+  
+  if ($('#input').val() === '') {
+    alert("You must write something!");
   } else {
-    $('#list').append(li);
-    $('#input').val('');
-
-    function crossOut() {
+    let list = $('#list');
+     list.append(li);
+  } 
+  
+  //Crossing out an item from the list of items:
+  li.on('dblclick', function (){
       li.toggleClass('strike');
-    }
-
-    li.on('dblclick', function () {
-      li.toggleClass('strike');
-    });
-
-    let crossOutButton = $('<button></button>');
-    crossOutButton.append(document.createTextNode('X'));
+  });
+  
+  //Adding the delete button "X": 
+  let crossOutButton = $('<crossOutButton></crossOutButton>');
+    $(crossOutButton).append('X');
     li.append(crossOutButton);
-
-    crossOutButton.on('click', deleteListItem);
-    function deleteListItem() {
+  
+  crossOutButton.on('click', function (){
       li.addClass('delete');
-    }
-  }
-
+    });
+  
+  //Reordering the items: 
   $('#list').sortable();
-}
+  
+  //Input text dissapear once 'Add' button clicked and item is added to the list of items:
+  $('#input').val('');
+  }
