@@ -6,3 +6,9 @@ The to-do-list-app includes the following features:
 - The user can cross out an item from the list of items.
 - The user can delete an item from the list of items.
 - The user can change the order of items in the list of items.
+
+# Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
