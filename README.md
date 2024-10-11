@@ -1,14 +1,22 @@
-# to-do-list-app
+# To-Do List App
 
-The to-do-list-app includes the following features:
+The To-Do List App allows users to manage their tasks efficiently. It includes features such as adding new items, crossing out completed items, deleting items, and changing the order of items through drag-and-drop functionality. 
 
-- The user can add a new item to a list of items.
-- The user can cross out an item from the list of items.
-- The user can delete an item from the list of items.
-- The user can change the order of items in the list of items.
-
-# Technologies Used
+## Technologies Used
 - HTML5
 - CSS3
 - JavaScript
 - jQuery
+
+## Dependencies
+- jQuery
+
+## How to Clone
+To clone the repository, run: `git clone <repository-url>`
+
+## Installation
+1. Navigate to the folder: `cd <repository-folder>`
+2. Open `index.html` in your preferred web browser.
+
+## Launch
+Open `index.html` and interact with the app.
