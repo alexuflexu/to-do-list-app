@@ -28,4 +28,4 @@ To clone the repository, run: `git clone https://github.com/alexuflexu/to-do-lis
 Open `index.html` and interact with the app.
 
 ## Hosting
-This project can be hosted on GitHub Pages.
+This project can be hosted on GitHub Pages: https://alexuflexu.github.io/to-do-list-app/
