@@ -18,10 +18,10 @@ The To-Do List App allows users to manage their tasks efficiently. It includes f
 - jQuery
 
 ## How to Clone
-To clone the repository, run: `git clone <repository-url>`
+To clone the repository, run: `git clone https://github.com/alexuflexu/to-do-list-app.git`
 
 ## Installation
-1. Navigate to the folder: `cd <repository-folder>`
+1. Navigate to the folder: `cd to-do-list-app`
 2. Open `index.html` in your preferred web browser.
 
 ## Launch
