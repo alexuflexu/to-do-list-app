@@ -8,6 +8,12 @@ The To-Do List App allows users to manage their tasks efficiently. It includes f
 - JavaScript
 - jQuery
 
+## Features
+- Add Tasks: Users can enter a task and click the "Add" button to include it in their list.
+- Mark Tasks as Complete: Double-clicking on a task strikes it through to indicate completion.
+- Delete Tasks: Each task has an "X" button to remove it from the list.
+- Reorder Tasks: Tasks can be rearranged by dragging and dropping.
+
 ## Dependencies
 - jQuery
 
@@ -20,3 +26,6 @@ To clone the repository, run: `git clone <repository-url>`
 
 ## Launch
 Open `index.html` and interact with the app.
+
+## Hosting
+This project can be hosted on GitHub Pages.
